@@ -1,8 +1,5 @@
-from django.conf.urls import include, url
-
+from django.conf.urls import url
 
 urlpatterns = [
-
-    url(r'', include('blog.urls')),
-
+    url(r'^keyboard/', 'blog.views.keyboard'),
 ]
